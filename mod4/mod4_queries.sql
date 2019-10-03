@@ -66,5 +66,11 @@ delete from customer where id IN (11,12,14);
 
 Delete from customer 
 	where id > 7;
+
+ select customerId, sum(total) as OrderTotal
+ from orders
+ group by customerId
+ having OrderTotal > 1000;
+    
     
     
