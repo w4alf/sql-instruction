@@ -1,7 +1,6 @@
 drop database if exists sqlbootcamp_mod4;
 create database sqlbootcamp_mod4;
 use sqlbootcamp_mod4;
-
 create table customer (
 	id 				int 			not null primary key auto_increment,
 	name 			varchar(50) 	not null,
@@ -32,7 +31,7 @@ create table orders (
 	id 				int 			not null primary key auto_increment,
 	customerID 		int 			not null,
 	date			datetime 		not null,
-	total 			decimal(14,0) 	not null default 0
+	total 			decimal(14,2) 	not null default 0
 );
 
 ALTER TABLE orders
