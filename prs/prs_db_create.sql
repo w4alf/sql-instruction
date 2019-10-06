@@ -22,7 +22,7 @@ create table User (
     -- I am following the convention I found online on MySQL and W3 schools, primary key listed below with other constraints vs above.
     PRIMARY KEY (ID),
     CONSTRAINT uname unique (UserName)
-    
+
 );
 
 create table Vendor (
