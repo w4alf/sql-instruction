@@ -1,4 +1,4 @@
-# sql-instruction
+#sql-instruction
 SQL Scripts for Class and back-end MySQL script for PRS Capstone Project
 
 BMDB - is database for Movie database an APP written in Java as a project for class
