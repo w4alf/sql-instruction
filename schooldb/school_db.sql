@@ -4,7 +4,7 @@ drop database if exists school_db;
 create database school_db;
 use school_db;
 
--- DDL - Create Tables
+-- DDL  Create Tables
 create table student (
 	id 				int 			primary key auto_increment,
 	ssnLastFour 	int 			not null,
